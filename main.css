@@ -1,0 +1,109 @@
+*
+{margin: 0;
+  padding: 0;}
+
+  body
+  {background colour: #eee;
+  color: #6c6c6c;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  overflow-x: hidden;
+  margin-left:10%;
+  margin-right:15%;
+  margin-bottom:5%;
+  margin-top:5%;}
+
+  .logo {
+  	position: absolute;
+  	z-index: 99;
+  	left: 50px;
+  	top: 20px;
+  }
+  .logo i {
+  	font-size: 50px;
+  	color: #fff;
+  }
+
+  #sidenav {
+    right:10px;
+    width: 200px;
+    position: fixed;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    transform: translateX(250px);
+    background: rgba(0, 0, 0, .7);
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 1;}
+
+  .sidenav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  #sidenav .sidenav li.sidenav-item a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+  }
+  #sidenav .sidenav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  #sidenav .sidenav li a:active, .sidenav li a:focus {
+    text-decoration: none;
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  #sidenav .sidenav>.sidenav-brand {
+    font-size: 20px;
+    height: 80px;
+    line-height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+  }
+  #sidenav .sidenav>.sidenav-brand a {
+    color: #fff;
+  }
+  #sidenav .sidenav>.sidenav-brand a:hover {
+    color: #fff;
+    background: none;
+  }
+  #sidenav.active {
+    right: 250px;
+    width: 250px;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    z-index: 99;
+  }
+  .menu-toggle {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    background: rgba(52, 58, 64, 0.5);
+    line-height: 50px;
+    z-index: 999;
+  }
+  .menu-toggle:focus, .menu-toggle:hover {
+    color: #fff;
+  }
+  .menu-toggle:hover {
+    background: #343a40;
+  }
