@@ -32,8 +32,8 @@
     -o-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
     transform: translateX(250px);
-    background: rgba(0, 0, 0, .7);
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    background: teal;
+    border: 1px solid red;
     z-index: 1;}
 
   .sidenav {
