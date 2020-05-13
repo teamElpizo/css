@@ -13,16 +13,14 @@
   margin-bottom:5%;
   margin-top:5%;}
 
-  .logo {
-  	position: absolute;
+  .logo
+  {position: absolute;
   	z-index: 99;
   	left: 50px;
-  	top: 20px;
-  }
-  .logo i {
-  	font-size: 50px;
-  	color: #fff;
-  }
+  	top: 20px;}
+  .logo i
+  {font-size: 50px;
+  	color: #fff;}
 
   #sidenav {
     right: 0px;
@@ -39,7 +37,7 @@
     z-index: 1;}
 
   .sidenav {
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 250px;
     margin: 0;
@@ -89,8 +87,8 @@
     transition: all 0.5s ease 0s;
     z-index: 99;
   }
-  .menu-toggle {
-    position: fixed;
+  .menu-toggle
+  {position: fixed;
     right: 15px;
     top: 15px;
     width: 50px;
@@ -99,8 +97,7 @@
     color: #fff;
     background: rgba(52, 58, 64, 0.5);
     line-height: 50px;
-    z-index: 999;
-  }
+    z-index: 999;}
   .menu-toggle:focus, .menu-toggle:hover {
     color: #fff;
   }
