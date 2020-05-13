@@ -25,8 +25,8 @@
   }
 
   #sidenav {
-    right:10px;
-    width: 200px;
+    right: 0px;
+    width: 250px;
     position: fixed;
     -webkit-transition: all 0.5s ease 0s;
     -moz-transition: all 0.5s ease 0s;
