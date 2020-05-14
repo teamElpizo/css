@@ -49,6 +49,24 @@ span {
 	font-family: 'Source Sans Pro', sans-serif;
 	text-transform: capitalize;
 }
+
+
+::-webkit-scrollbar {
+  width: 30px;
+}
+
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px red;
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: cyan;
+  border-radius: 10px;
+}
+
 #sidebar-wrapper {
   position: fixed;
   z-index: 2;
@@ -63,6 +81,7 @@ span {
   transform: translateX(250px);
   background: rgba(0, 0, 0, .7);
   border-left: 1px solid rgba(255, 255, 255, 0.1);}
+
 .sidebar-nav
 {position: absolute;
   top: 0;
@@ -112,7 +131,7 @@ span {
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
   z-index: 99;}
-  
+
 .menu-toggle {
   position: fixed;
   right: 15px;
@@ -125,12 +144,14 @@ span {
   line-height: 50px;
   z-index: 999;
 }
+
 .menu-toggle:focus, .menu-toggle:hover {
   color: #fff;
 }
 .menu-toggle:hover {
   background: #343a40;
 }
+
 #Banner {
   position: relative;
   height: 100vh;
