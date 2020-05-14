@@ -134,7 +134,7 @@ span {
   position: relative;
   height: 100vh;
   background: linear-gradient(274deg, #46c8d0, #6262e2 44%, #c962f7);
-  color: #fff;
+  color: red;
 }
 #Banner .content-wrap {
   position: absolute;
