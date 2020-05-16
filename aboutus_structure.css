@@ -114,18 +114,17 @@ body {
 
 .tm-section-1 {
   height: 750px;
-  background-image: url(../img/spot-bg-01.jpg);
+  background-image: url(https://raw.githubusercontent.com/teamElpizo/css/pictures/EMTansel.jpg);
   background-size: cover;
   -webkit-clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);
   clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);
-  /* background-position: center -95px; */
   background-repeat: no-repeat;
   padding-top: 75px;
 }
 
 .tm-section-3 {
   height: 790px;
-  background-image: url(../img/spot-bg-02.jpg);
+  background-image: url(https://raw.githubusercontent.com/teamElpizo/css/pictures/FMV.jpg);
   background-size: cover;
   -webkit-clip-path: polygon(0px 0px, 100% 14%, 100% 86%, 0px 100%);
   clip-path: polygon(0px 0px, 100% 14%, 100% 86%, 0px 100%);
