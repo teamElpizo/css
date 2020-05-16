@@ -114,7 +114,7 @@ body {
 
 .tm-section-1 {
   height: 750px;
-  background-image: url(https://raw.githubusercontent.com/teamElpizo/css/pictures/EMTansel.jpg);
+  background-image: url(https://raw.githubusercontent.com/teamElpizo/css/pictures/eVehicles.jpg);
   background-size: cover;
   -webkit-clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);
   clip-path: polygon(0px 0px, 100% 0px, 100% 84%, 0px 100%);
