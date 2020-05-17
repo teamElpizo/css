@@ -28,8 +28,23 @@ body {
   border-radius: 10px;
 }
 
+.logo {
+	position: absolute;
+	z-index: 99;
+	left: 50px;
+	top: 20px;
+}
 .logo i {
-  font-size: 40px;
+	font-size: 50px;
+	color: #fff;
+}
+span {
+	color: #fff;
+	vertical-align: middle;
+	margin-left: 9px;
+	font-size: 24px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform: capitalize;
 }
 
 #sidebar-wrapper {
