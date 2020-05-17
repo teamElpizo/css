@@ -3,10 +3,7 @@
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  .logo i {
-    font-size: 40px;
-  }
-
+  
   ::-webkit-scrollbar {
     width: 30px;
     background: blue;
