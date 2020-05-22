@@ -156,7 +156,18 @@ span {
 
 .tm-section-3 {
   height: 790px;
-  background-image: url(https://raw.githubusercontent.com/teamElpizo/css/pictures/FMV.jpg);
+  background-image: url(https://raw.githubusercontent.com/teamElpizo/css/pictures/SiteBack.png);
+  background-size: cover;
+  -webkit-clip-path: polygon(0px 0px, 100% 14%, 100% 86%, 0px 100%);
+  clip-path: polygon(0px 0px, 100% 14%, 100% 86%, 0px 100%);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.tm-section-4 {
+  height: 790px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRbP7e1653lWEwtnFoFdoyjQoh-hdEvXfkzC-O6MZ7BaCp5hzJ1&usqp=CAU);
   background-size: cover;
   -webkit-clip-path: polygon(0px 0px, 100% 14%, 100% 86%, 0px 100%);
   clip-path: polygon(0px 0px, 100% 14%, 100% 86%, 0px 100%);
@@ -354,7 +365,8 @@ a.btn:hover {
   }
 
   .tm-section-1,
-  .tm-section-3 {
+  .tm-section-3,
+  .tm-section 4 {
     height: auto;
   }
 
@@ -365,6 +377,13 @@ a.btn:hover {
   }
 
   .tm-section-3 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    -webkit-clip-path: polygon(0px 0px, 100% 8%, 100% 92%, 0px 100%);
+    clip-path: polygon(0px 0px, 100% 8%, 100% 92%, 0px 100%);
+  }
+
+  .tm-section-4 {
     padding-top: 100px;
     padding-bottom: 100px;
     -webkit-clip-path: polygon(0px 0px, 100% 8%, 100% 92%, 0px 100%);
