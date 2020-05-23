@@ -207,10 +207,10 @@ span {
 .tm-bg-circle-white {
   background-color: white;
   color: #6c6c6c;
-  padding: 75px 81px 75px 90px;
+  padding: 75px 85px 75px 90px;
   border-radius: 50%;
-  width: 550px;
-  height: 550px;
+  width: 700px;
+  height: 700px;
 }
 
 .tm-bg-circle-pad-2 {
