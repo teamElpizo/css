@@ -78,7 +78,8 @@ span {
   background: rgba(220, 0, 0, 0.2);
 }
 #sidebar-wrapper .sidebar-nav li a:active, .sidebar-nav li a:focus {
-  text-decoration: underline overline solid blue;
+  text-decoration: none;
+  text-decoration: none;
   color: #fff;
   background: rgba(255, 255, 255, 0.2);
 }
