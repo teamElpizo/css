@@ -93,6 +93,7 @@ span {
   margin: 0;
   padding: 0;
   list-style: none;}
+
 #sidebar-wrapper .sidebar-nav li.sidebar-nav-item a
 {
   display: block;
@@ -3879,7 +3880,6 @@ input, select, textarea {
 
 		}
 
-/* Wrapper */
 
 	#wrapper {
 		width: 64em;
