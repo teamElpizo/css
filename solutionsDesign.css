@@ -55,7 +55,7 @@ ol, ul {
 	z-index: 99;
 	left: 50px;
 	top: 10px;
-   margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .logo i {
