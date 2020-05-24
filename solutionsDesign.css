@@ -55,7 +55,6 @@ ol, ul {
 	z-index: 99;
 	left: 50px;
 	top: 10px;
-  padding-bottom: 100px;
 }
 
 .logo i {
@@ -3888,6 +3887,7 @@ input, select, textarea {
 		width: 64em;
 		max-width: calc(100% - 4em);
 		margin: 10px auto;
+		margin-top: 50px;
 	}
 
 		@media screen and (max-width: 480px) {
