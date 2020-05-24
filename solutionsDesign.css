@@ -38,8 +38,16 @@ blockquote, q {
 
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
-		content: none;
-	}
+		content: none;}
+
+	body.is-preload #header.alt > * {
+		opacity: 1;}
+
+	body.is-preload #header.alt .logo {
+		-moz-transform: none;
+		-webkit-transform: none;
+		-ms-transform: none;
+		transform: none;}
 
 	#sidebar-wrapper {
 	  position: fixed;
