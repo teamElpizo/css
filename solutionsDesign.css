@@ -13,7 +13,7 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
-	margin: 0;
+	margin: 30px;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -40,14 +40,27 @@ blockquote, q {
 		content: '';
 		content: none;}
 
-	body.is-preload #header.alt > * {
-		opacity: 1;}
+		.logo {
+			position: absolute;
+			z-index: 99;
+			left: 50px;
+			top: 20px;
+		}
 
-	body.is-preload #header.alt .logo {
-		-moz-transform: none;
-		-webkit-transform: none;
-		-ms-transform: none;
-		transform: none;}
+		.logo i {
+			font-size: 50px;
+			color: #fff;
+		}
+
+		span {
+			color: maroon;
+			vertical-align: middle;
+			margin-left: 9px;
+			margin-bottom: 20px;
+			font-size: 24px;
+			font-family: 'Source Sans Pro', sans-serif;
+			text-transform: capitalize;
+		}
 
 	#sidebar-wrapper {
 	  position: fixed;
@@ -3309,7 +3322,6 @@ input, select, textarea {
 			transform: scale(0.8) rotate(-30deg);
 		}
 
-/* Nav */
 
 	#nav {
 		-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
