@@ -52,15 +52,6 @@ blockquote, q {
 			color: #fff;
 		}
 
-		span {
-			color: maroon;
-			vertical-align: middle;
-			margin-left: 9px;
-			margin-bottom: 20px;
-			font-size: 24px;
-			font-family: 'Source Sans Pro', sans-serif;
-			text-transform: capitalize;
-		}
 
 	#sidebar-wrapper {
 	  position: fixed;
