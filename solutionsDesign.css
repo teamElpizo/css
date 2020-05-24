@@ -3893,6 +3893,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#wrapper {
+				top: 200px;
 				max-width: calc(100% - 2em);
 			}
 
@@ -3901,6 +3902,7 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			#wrapper {
+				top:200px;
 				max-width: 100%;
 			}
 
