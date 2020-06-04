@@ -10246,14 +10246,14 @@ span {
   background: #343a40;
 }
 
-#showy {
+#Banner {
   position: relative;
   height: 100vh;
   background: linear-gradient(274deg, cyan, grey 44%, red);
   color: #fff;
 }
 
-#showy .content-wrap {
+#Banner .content-wrap {
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -10261,21 +10261,25 @@ span {
   left: 50%;
 }
 
-#showy .content-wrap h1 {
+#Banner .content-wrap h1 {
   font-size: 80px;
   margin: 0 0 30px;
   padding: 0;
 }
 
+#Banner .content-wrap h3 {
+  font-size: 20px;
+  margin: 0 0 30px;
+  padding: 0;
+}
 
-
-#showy .btn-primary {
+#Banner .btn-primary {
   background-color: #02ccba;
   color: #fff;
   border: none;
 }
 
-#showy .btn-primary:hover {
+#Banner .btn-primary:hover {
   background-color: #07bcab;
 }
 
