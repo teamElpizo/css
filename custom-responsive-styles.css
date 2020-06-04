@@ -26,12 +26,7 @@ iframe {
     border-radius: 10px;
   }
 
-  #Banner .content-wrap h1 {
-    font-size: 36px;
-  }
-  #Banner .content-wrap h3 {
-    font-size: 20px;
-  }
+
   .btn-xl {
     padding: 15px 30px;
   }
@@ -78,12 +73,7 @@ iframe {
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  #Banner .content-wrap h1 {
-    font-size: 36px;
-  }
-  #Banner .content-wrap h3 {
-    font-size: 20px;
-  }
+
   .btn-xl {
     padding: 15px 30px;
   }
@@ -127,12 +117,9 @@ iframe {
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  #Banner .content-wrap h1 {
-    font-size: 40px;
+
   }
-  #Banner .content-wrap h3 {
-    font-size: 24px;
-  }
+
   .btn-xl {
     padding: 20px 30px;
   }
@@ -160,12 +147,7 @@ iframe {
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  #Banner .content-wrap h1 {
-    font-size: 40px;
-  }
-  #Banner .content-wrap h3 {
-    font-size: 24px;
-  }
+
   .btn-xl {
     padding: 20px 30px;
   }
