@@ -10299,7 +10299,7 @@ span {
   transition: all .5s ease;
 }
 
-#Services .service-content {
+#Servicesservice-viewBox {
   position: absolute;
   top: 0;
   left: 0;
@@ -10345,7 +10345,7 @@ span {
   text-transform: uppercase;
 }
 
-#Services .service-box .service-content h3 {
+#Services .service-box  h3 {
   font-size: 15px;
   font-weight: 700;
   color: #fff;
@@ -10353,7 +10353,7 @@ span {
   text-transform: uppercase;
 }
 
-#Services .service-box .service-content p {
+#Services .service-box  p {
   font-size: 13px;
   color: #fff;
   margin: 0;
@@ -10384,7 +10384,7 @@ span {
   transform: translateY(-110px) rotateX(90deg);
 }
 
-#Services .service-box:hover .service-content {
+#Services .service-box:hover  {
   opacity: 1;
   -webkit-transform: rotateX(0);
   -moz-transform: rotateX(0);
